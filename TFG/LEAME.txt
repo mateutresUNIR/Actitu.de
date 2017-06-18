@@ -1,0 +1,38 @@
+Trabajo Final de Grado Ingenieria - Universidad Internacional de La Rioja (UNIR)
+Actitu.de – Herramienta para la adquisición de evidencias en la actitud de los alumnos 
+	
+Autor:		Mateu Tres Bosch
+Fecha:		Junio 2017
+
+La presente aplicación web se ha desarrollado en el marco de la elaboración del Trabajo Final de Grado de Ingeniería Informática en la Universidad Internacional de La Rioja (UNIR).
+
+
+LICENCIA:
+
+	El código fuente se libera bajo la licencia	Creative Commons Reconocimiento – NoComercial – SinObraDerivada (by-nc-nd).
+
+	Usted es libre de compartir, copiar y redistribuir el material en cualquier medio o formato bajo las condiciones siguientes (Creative Commons, 2017):
+	* Reconocimiento — Debe reconocer adecuadamente la autoría, proporcionar un enlace a la licencia e indicar si se han realizado cambios<. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que tiene el apoyo del licenciador o lo recibe por el uso que hace.
+	* NoComercial — No puede utilizar el material para una finalidad comercial.
+	* SinObraDerivada — Si remezcla, transforma o crea a partir del material, no puede difundir el material modificado.
+	* No hay restricciones adicionales — No puede aplicar términos legales o medidas tecnológicas que legalmente restrinjan realizar aquello que la licencia permite.
+
+	Componentes de terceros integrados en el proyecto:
+	Para el desarrollo del proceso de ingeniería del presente trabajo, se ha elegido la plantilla Gentelella Alela!, basada en el framework Bootstrap, y desarrollada por Colorlib. El uso de esta plantilla queda regulado mediante licencia MIT que, según (Github, 2017), permite al desarrollador usar, copiar, modificar, publicar, distribuir o re-licenciar el código, respetando la autoría original de la plantilla. La plantilla se encuentra disponible para su descarga en el siguiente enlace: https://github.com/puikinsh/gentelella.
+
+	Además del framework y la plantilla, se detecta la necesidad de disponer de un módulo de acceso a los datos persistentes – base de datos MySQL – de forma sencilla, fiable y preparada para su uso en programación orientada a objetos. El desarrollador y autor del módulo (Cambpell, 2017) publicó el código fuente con permiso para su uso, redistribución y modificación bajo los términos de licencia GNU General Public License versión 3. El módulo de conexión a base de datos se encuentra disponible para su descarga en el siguiente enlace: https://github.com/joshcam/PHP-MySQLi-Database-Class.
+
+
+INSTALACIÓN:
+	1. copiar los ficheros y la estructura de carpetas en la raíz de un servidor web.
+	2. crear en un servidor MySQL una base de datos con el nombre "TFG" e importar la estructura de tablas que contiene el fichero database.sql
+	3. actualizar los parámetros de base de datos en el fichero "include/definevars.php"
+
+	
+USUARIOS POR DEFECTO:
+
+La aplicación Actitu.de tiene por defecto tres usuarios de demostración preconfigurados, en función de los tres posibles roles:
+	1. admin@actitu.de
+	2. gestorcentro@actitu.de
+	3. profesor@actitu.de
+	La contraseña en ambos casos es "actitu.de".
